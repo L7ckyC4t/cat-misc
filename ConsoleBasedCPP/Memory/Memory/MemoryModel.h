@@ -7,7 +7,6 @@
 #include <sstream>
 #include <cstdlib>
 #include <ctime>
-#include <chrono>
 
 using namespace std;
 
@@ -22,7 +21,6 @@ private:
 	bool allGuessed;
 
 	int errorCount;
-
 
 	void initializeAllPairs();
 	void shufflePairs();
